@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+body {
+font-family: 'Fira Sans', sans-serif;
+background:url(https://komiinform.ru/content/news/images/134155/1.jpg) 
+no-repeat center center / cover;
+padding: 100px 0;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container{
+width: 800px;
+min-height: 500px;
+border: 6px solid rgb(255, 91, 91);
+margin: 0 auto;
+background: rgb(255, 255, 255); 
+}
+
+.header{
+    display: flex;
+    height: 150px;
+}
+.title-block{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+height: 100%;
+font-size: 30px;
+background: url(https://www.linux.com/wp-content/uploads/2019/08/future-proof-sys-admin.png)
+no-repeat center center / cover;
+color: rgb(255, 255, 255);
+margin-right :10px;
+}
+
+.title-block::after{
+content:'';
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgb(2, 0, 92);
+opacity: 0.3;
+}
+.title {
+ position: relative;  
+ z-index: 1; 
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://www.eban.org/wp-content/uploads/2021/02/Startup-Includer-logo-GR-1.png)
+    no-repeat center center / cover;
+
+}
+.nav ul {
+display: flex;
+background: rgb(255, 91, 91);
+margin: 10px 0;
+}
+
+.nav li a {
+    display: flex;   
+ padding: 20px;
+ text-decoration: none;
+ color: #000000;
+ font-weight: bold;
+ border-right: 1px solid rgb(141, 140, 140);
+ transition: background .3s ease;
+}
+.nav li a:hover {
+    background: #ff4444;
+}
+.content-wrapper {
+    display: flex; 
+}
+
+content {
+    width: 70%;
+    padding: 20px;
+}
+
+.sidebar {
+
+padding: 20px;
+width: 30%;
+}
+
+
+.skills li {
+margin:10px 0;
+transition: transform .5s ease;
+cursor: pointer;
+}
+
+.skills li:hover {
+    transform: translateX(10px);
+}
