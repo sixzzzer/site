@@ -93,10 +93,21 @@ content {
     padding: 20px;
 }
 
-.sidebar {
+.telegram {
+    padding: 20px 10px 20px;
+}
 
+.WhatsApp {
+    padding: 1px 10px 1px;
+
+
+}
+
+
+.sidebar {
 padding: 20px;
 width: 30%;
+
 }
 
 
